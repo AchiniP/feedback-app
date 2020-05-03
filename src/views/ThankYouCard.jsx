@@ -9,12 +9,12 @@ import FeedbackForm from './FeedbackForm';
 
 const useStyles = makeStyles({
   root: {
-    width: '70%',
-    // height: '20%',
+    width: '50%',
+    maxWidth: '50%',
     textAlign: 'center',
     position: 'absolute',
     bottom: 5,
-    // padding: '5%',
+    left: 0,
   },
   icon: {
     verticalAlign: 'middle',

@@ -31,7 +31,11 @@ const useStyles = makeStyles(theme => ({
   },
   dialogPaper: {
     maxHeight: '80vh',
+    maxWidth: '50%',
     justifyContent: 'center',
+    position: 'absolute',
+    bottom: '0',
+    left: '0',
   },
   closeButton: {
     position: 'absolute',
