@@ -48,5 +48,5 @@ returns to the initial state</li>
 ![alt text](screenshots/Screen2.PNG "Screen2")
 ![alt text](screenshots/Screen3.PNG "Screen3")
 ![alt text](screenshots/Screen4.PNG "Screen4")
-![alt text](screenshots/Screen5.PNG "Screen5")
+![alt text](screenshots/Screen5.PNG "Screen6")
 ![alt text](screenshots/Screen7.PNG "Screen7")

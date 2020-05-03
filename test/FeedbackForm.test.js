@@ -43,9 +43,24 @@ describe('Test clicks', () => {
     const updatedWrapper = wrapper.update();
     const updatedEmail = updatedWrapper.find('input[id="email"]');
     expect(updatedEmail.props().value).toEqual('test');
+    expect(updatedEmail.props()['aria-invalid']).toEqual(true);
   });
 
-  it('should simulate button click', () => {
+  it('should validate email input field', () => {
+    const event = {
+      preventDefault() {},
+      target: { value: 'achi729@gmail.com', name: 'email' },
+    };
+    const email = wrapper.find('input[id="email"]');
+    expect(email.exists()).toEqual(true);
+    email.simulate('change', event);
+    const updatedWrapper = wrapper.update();
+    const updatedEmail = updatedWrapper.find('input[id="email"]');
+    expect(updatedEmail.props().value).toEqual('achi729@gmail.com');
+    expect(updatedEmail.props()['aria-invalid']).toEqual(false);
+  });
+
+  it('should simulate button click with', () => {
     const event = {
       preventDefault() {},
     };
