@@ -93,12 +93,12 @@ export default function RatingCard(props) {
                 <RatingGroup handleClickOpen={handleButtonClick} />
               </Grid>
               <Grid item xs={3}>
-                <Typography gutterBottom variant="body2">NOT SATISFILED</Typography>
+                <Typography gutterBottom variant="body2">NOT SATISFIED</Typography>
               </Grid>
               <Grid item xs={3} />
               <Grid item xs={3} />
               <Grid item xs={3}>
-                <Typography gutterBottom align="right" variant="body2">VERY SATISFILED</Typography>
+                <Typography gutterBottom align="right" variant="body2">VERY SATISFIED</Typography>
               </Grid>
             </Grid>
           </DialogContent>
