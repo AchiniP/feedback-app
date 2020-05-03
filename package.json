@@ -1,0 +1,77 @@
+{
+  "name": "feedback-app",
+  "version": "1.0.0",
+  "description": "This project is a sample react based UI for feedback form",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "test": "jest --coverage ./test",
+    "eslint": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AchiniP/feedback-app.git"
+  },
+  "keywords": [
+    "react",
+    "feedback",
+    "babel",
+    "webpack",
+    "jest",
+    "materialUI"
+  ],
+  "author": "Achini Hettiarachchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AchiniP/feedback-app/issues"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.12",
+    "@material-ui/icons": "^4.9.1",
+    "immutable": "^4.0.0-rc.12",
+    "install": "^0.13.0",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.14.0",
+    "npm": "^6.14.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/polyfill": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "@testing-library/react": "^10.0.4",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "css-loader": "^2.1.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.5.0",
+    "react-redux": "^6.0.1",
+    "react-test-renderer": "^16.13.1",
+    "redux": "^4.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./test/enzyme.setup.js"
+    ]
+  },
+  "homepage": "https://github.com/AchiniP/feedback-app#readme"
+}
